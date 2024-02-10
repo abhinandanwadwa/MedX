@@ -1,0 +1,47 @@
+.card{
+    width: fit-content;
+    height: max-content;
+    box-shadow:  2px 2px 2px 7px  rgba(0, 0, 0, 0.01), -2px -2px 2px 7px rgba(0, 0, 0, 0.01);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .image{
+    position: relative;
+    height: 60px;
+    width: 70px;
+    border: solid white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: white;
+    /* padding-top: 10px; */
+  }
+  
+  .doctor{
+    height: 60px;
+    width: 70px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    object-fit: contain;
+    /* mix-blend-mode: darken; */
+  }
+  
+  .card-over-img{
+    position: absolute;
+    /* right: 0px; */
+    left: 55%;
+    top: 52%;
+  }
+  
+  .label{
+    /* background-color: #00495E; */
+    font-size: 16px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,225,216,1) 0%, rgba(1,213,220,1) 35%, rgba(1,186,230,1) 100%);
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  

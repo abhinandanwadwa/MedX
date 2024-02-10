@@ -1,0 +1,78 @@
+
+.appointment-card{
+    text-align: center;
+    /* background-color: gray;
+    border: solid black 1px; */
+    width: 70%;
+    box-shadow: 2px 5px 24px -1px rgba(0,0,0,0.4);
+  -webkit-box-shadow: 2px 5px 24px -1px rgba(0,0,0,0.4);
+  -moz-box-shadow: 2px 5px 24px -1px rgba(0,0,0,0.4);
+  border-radius: 12px;
+  }
+  
+  .appointment-card-header{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+  }
+  
+  .name{
+    color: #00495E;
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+  }
+  
+  .appointment-image{
+    height: 140px;
+    width: 120px;
+    object-fit: cover;
+    position: relative;
+    bottom: 20px;
+    z-index: 1;
+    mix-blend-mode: darken;
+  }
+  
+  .appointment-details{
+    margin: 5px 0px;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .detail-1{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .hospital-name{
+    width: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+  }
+  
+  .detail-2{
+    display: flex;
+    /* gap: 5px; */
+    align-items: center;
+    align-content: center;
+  }
+  
+  .appointment-time{
+    width: 50px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+  }
+  
+  .appointment-card-footer{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(1,225,216,1) 0%, rgba(1,213,220,1) 35%, rgba(1,186,230,1) 100%);
+    color: white;
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-align: center;
+    padding: 5px 0px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }

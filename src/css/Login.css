@@ -1,0 +1,41 @@
+.waveContainer{
+    height: 110vh;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0px;
+    z-index: -1;
+  }
+  .viewBox{
+    height: 100%;
+    width: 100%;
+  }
+  .path{
+    stroke: none;
+    fill: rgb(219,247,251);
+  }
+
+
+  .header-wrapper{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .header{
+    font-family: 'Nunito', sans-serif;
+    font-size: 24px;
+    color: #00495E;
+    font-weight: 600;
+    width: 60%;
+    text-align: center;
+  }
+
+  .inputs{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }

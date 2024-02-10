@@ -1,0 +1,125 @@
+.home{
+    margin-left: 0px;
+    margin-right: 10px;
+  }
+  
+  .app::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .greeting{
+    font-family: 'Nunito', sans-serif;
+    font-size: 38px;
+    color: #00495E;
+    font-weight: 600;
+  }
+  
+  .profile{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+  }
+  
+  .search-box{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  .search{
+    height: 25px;
+    width: 80%;
+    border: solid 2px #9D9D9D;
+    border-radius: 14px;
+    box-shadow:  2px 2px 2px 7px  rgba(0, 0, 0, 0.01), -2px -2px 2px 7px rgba(0, 0, 0, 0.01);
+  }
+  
+  .search::placeholder{
+    color: #9D9D9D;
+    padding-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  .search:focus{
+    outline: none;
+  }
+  
+  .looking{
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+    color: #00495E;
+  }
+  
+  
+  /**********************************/
+  
+  .cards{
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+  }
+  
+  .cards::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /*******************/
+  
+  .more-info{
+    color: #00495E;
+    font-weight: 600;
+    font-size: 28px;
+    font-family: 'Nunito', sans-serif;
+    margin: 20px 0px;
+    text-shadow: 3px 3px rgba(0, 0, 0,0.1);
+  }
+  
+  /*******************/
+  
+  .info-cards{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  /******************/
+  
+  .appointment{
+    color: #00495E;
+    margin: 30px 0px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Nunito', sans-serif;
+  }
+  
+  
+  /*********************/
+  
+  .our-recommendations{
+    margin: 20px 0px;
+    color: #00495E;
+    font-family: 'Nunito', sans-serif; 
+  }
+  
+  
+  
+  /***************************/
+  
+  .upload-button{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    border-radius: 14px;
+    background-color: #00B589;
+    color: white;
+    font-size: 20px;
+    padding: 5px 15px;
+    font-family: 'Nunito', sans-serif; 
+    box-shadow: 2px 2px 5px rgba(0, 0, 0,0.5);
+    z-index: 10;
+  }
